@@ -56,3 +56,11 @@ keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current c
 
 -- restart lsp server (not on youtube nvim video)
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
+
+-- Open terminal in a new vertical split
+keymap.set("n", "<leader>tv", ":vnew +term<CR>", { desc = "Open vertical terminal" })
+-- Open terminal in a new horizontal split
+keymap.set("n", "<leader>th", ":term<CR>", { desc = "Open horizontal terminal" })
+
+-- Open a floating terminal
+keymap.set("n", "<leader>tf", ":Floaterminal<CR>", { desc = "Open a floating terminal"})

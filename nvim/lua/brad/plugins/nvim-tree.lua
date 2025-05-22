@@ -32,9 +32,7 @@ nvimtree.setup({
   -- window splits
   actions = {
     open_file = {
-      open_file = {
-        resize_window = true,
-      },
+      resize_window = true,
       window_picker = {
         enable = false,
       },

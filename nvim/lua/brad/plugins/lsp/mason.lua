@@ -23,7 +23,7 @@ mason_lspconfig.setup({
   -- list of servers for mason to install
   ensure_installed = {
     "lua_ls",
-    "tsserver", -- Typescript
+    "ts_ls", -- Typescript
     "jedi_language_server", -- Python
     "sqlls", -- sql
     "taplo", -- TOML
